@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+  <title>Youtube</title>
+</head>
+
+<body>
+  <header>
+    <div class="left-section">
+      <i class="material-icons">menu</i>
+      <img src="imgs/YouTube-Logo.wine.svg" alt="">
+    </div>
+    <div class="mid-section">
+      <form>
+        <input type="search" placeholder="Search">
+        <button><i class="material-icons">search</i></button>
+        <i class="material-icons">mic</i>
+      </form>
+    </div>
+    <div class="right-section">
+      <a href="#"><i class="material-icons">video_call</i></a>
+      <a href="#"><i class="material-icons">notifications</i></a>
+      <a href="#"><i class="material-icons">account_circle</i></a>
+    </div>
+  </header>
+
+  <div class="content-area">
+    <aside>
+      <nav>
+        <a href="#" class="nav-link active">
+          <i class="material-symbols-outlined">home</i>
+          <span id="active-span">Home</span>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="material-symbols-outlined">explore</i>
+          <span>Explore</span>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="material-symbols-outlined">subscriptions</i>
+          <span>subscriptions</span>
+        </a>
+        <hr>
+        <a href="#" class="nav-link">
+          <i class="material-symbols-outlined">video_library</i>
+          <span>library</span>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="material-symbols-outlined">history</i>
+          <span>history</span>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="material-symbols-outlined">watch_later</i>
+          <span>watch later</span>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="material-symbols-outlined">favorite</i>
+          <span>liked videos</span>
+        </a>
+        <hr>
+        <p>Subscriptions</p>
+        <a href="https://www.youtube.com/@ElzeroAcademy" class="nav-link">
+          <img class="img" src="imgs/elzero.jpg" alt="">
+          <span class="name">elzero web school</span>
+        </a>
+        <a href="https://www.youtube.com/@AliMuhammadAli" class="nav-link">
+          <img class="img" src="imgs/ali.jpg" alt="">
+          <span class="name">
+            Ali Muhammad Ali </span>
+        </a>
+        <a href="https://www.youtube.com/@freecodecamp" class="nav-link">
+          <img class="img" src="imgs/code.jpg" alt="">
+          <span class="name">
+            freeCodeCamp.org</span>
+        </a>
+        <a href="https://www.youtube.com/@Codezilla" class="nav-link">
+          <img class="img" src="imgs/zilla.jpg" alt="">
+          <span class="name">
+            codezilla</span>
+        </a>
+        <a href="https://www.youtube.com/@othmanalkamees" class="nav-link">
+          <img class="img" src="imgs/otman.jpg" alt="">
+          <span class="name" style=" height: 20px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+            Dr. Othman Alkamees - الشيخ الدكتور عثمان الخميس
+          </span>
+        </a>
+      </nav>
+    </aside>
+    <main>
+      <div class="videos-container">
+        <div class="video">
+          <div class="thumbnail">
+            <a href="https://www.youtube.com/watch?v=oWS1SgAIHRs"><img src="imgs/otman-thumb.jpg" alt=""></a>
+            <span class="time">1:12</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/otman.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="https://www.youtube.com/watch?v=oWS1SgAIHRs" class="video-title">
+                1160 - الكل مدعو للدخول في شريعة محمد ﷺ - عثمان الخميس
+              </a>
+              <a href="https://www.youtube.com/@othmanalkamees" class="video-creator">
+                عثمان الخميس
+              </a>
+              <span>442 views • 1 hour ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="https://www.youtube.com/watch?v=9w5xMzePT7Y"><img src="imgs/ali-thumb.jpg" alt=""></a>
+            <span class="time">3:12</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/ali.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="https://www.youtube.com/watch?v=9w5xMzePT7Y" class="video-title">
+                اختر نوع مشتقك فيديو مستخرج من تلخيص كتاب
+                بلا بلا بلا بلا بلا بلا اي كلام مفيش مشكل
+              </a>
+              <a href="https://www.youtube.com/@AliMuhammadAli" class="video-creator">
+                Ali Muhammad Ali
+              </a>
+              <span>61k • 9 days ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="https://www.youtube.com/watch?v=MrwqesK64aU"><img src="imgs/osama-thumb.jpg" alt=""></a>
+            <span class="time">11:25</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/elzero.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="https://www.youtube.com/watch?v=MrwqesK64aU" class="video-title">
+                [Arabic] Fundamentals Of Programming With C++ #017 - Data Types, Sizes And Memory
+              </a>
+              <a href="https://www.youtube.com/@ElzeroAcademy" class="video-creator">
+                Elzero Web School
+              </a>
+              <span>5.2k views • 2 days ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="https://www.youtube.com/watch?v=4RKuyp_bOhY"><img src="imgs/camp-thumb.jpg" alt=""></a>
+            <span class="time">1:35:28</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/code.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="https://www.youtube.com/watch?v=4RKuyp_bOhY" class="video-title">
+                React with .NET Web API – Basic App Tutorial
+              </a>
+              <a href="https://www.youtube.com/@freecodecamp" class="video-creator">
+                freeCodeCamp.org
+              </a>
+              <span>19k views • 1 day ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="https://www.youtube.com/watch?v=Hnm3BP-tjD8"><img src="imgs/zilla-thumb.jpg" alt=""></a>
+            <span class="time">1:41:37</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/zilla.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="https://www.youtube.com/watch?v=Hnm3BP-tjD8" class="video-title">
+                Build Youtube clone using HTML & CSS - بناء واجهة موقع يوتيوب
+              </a>
+              <a href="https://www.youtube.com/@Codezilla" class="video-creator">
+                codezilla
+              </a>
+              <span>149k views • 10 months ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="https://www.youtube.com/watch?v=DNFVGO_V2d0"><img src="imgs/cr7.jpg" alt=""></a>
+            <span class="time">7:28</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/day.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="#" class="video-title">
+                الجزائريون يطلقون إسم "جيلالي" على إبن كريستيانو هكذا بدأت القصة على الفايسبوك
+              </a>
+              <a href="#" class="video-creator">
+                Ennahar TV
+              </a>
+              <span>878k views • 3 years ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <img src="imgs/drift.jpg" alt="">
+            <span class="time">12:48</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/clouds.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="#" class="video-title">
+                This Lambo Goes 482 Miles/h
+                Can You Beat Her? </a>
+              <a href="#" class="video-creator">
+                Car Lovers
+              </a>
+              <span>23M views • 2 years ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <img src="imgs/fight.jpg" alt="">
+            <span class="time">22:33</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/pic.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="#" class="video-title">
+                This Videos doesn't exist/
+                This Videos doesn't exist/
+                This Videos doesn't exist
+              </a>
+              <a href="#" class="video-creator">
+                anonymous account
+              </a>
+              <span>442M views • 8 hours ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <img src="imgs/vlog.jpg" alt="">
+            <span class="time">16:28</span>
+            <i class="material-symbols-outlined icon">watch_later</i>
+            <i class="material-symbols-outlined icon-time">playlist_play</i>
+          </div>
+          <div class="video-details">
+            <div class="creator-img">
+              <img src="imgs/vloger.jpg" alt="">
+            </div>
+            <div class="title">
+              <a href="#" class="video-title">
+                I Went To The Train Station !
+                You Wouldn't Believe What I Found
+              </a>
+              <a href="#" class="video-creator">
+                my channel
+              </a>
+              <span>12 views • 12 days ago</span>
+              <i class="material-symbols-outlined dots"
+                style="font-size: 20px; position: absolute; right: 0; bottom: 68px; ">more_vert</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
