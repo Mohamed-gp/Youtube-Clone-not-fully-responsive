@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 html {
   font-size: 10px;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -23,12 +23,10 @@ body {
   background-color: #f5f5f5;
 }
 
-
 ::-webkit-scrollbar-thumb {
   background-color: transparent;
   border-radius: 12px;
 }
-
 
 header {
   display: flex;
@@ -41,19 +39,18 @@ header {
   box-shadow: 0px -17px 20px 0px #2c2c2c;
 }
 
-
 header .left-section {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-header .left-section>i {
+header .left-section > i {
   transition: 0.3s;
   padding: 10px;
 }
 
-header .left-section>i:hover {
+header .left-section > i:hover {
   background-color: #f8f8f8;
   border-radius: 50%;
 }
@@ -84,7 +81,6 @@ header .left-section>i:hover {
   font-size: 1.6rem;
   border: 1px solid #d3d3d3;
 }
-
 
 .mid-section input:focus {
   border-color: rgba(0, 110, 255, 0.966);
@@ -142,7 +138,7 @@ header .left-section>i:hover {
 .content-area {
   height: calc(100vh - 56px);
   display: flex;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 aside {
@@ -233,7 +229,7 @@ main {
 
 main .videos-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 0 20px;
 }
 
@@ -243,8 +239,8 @@ main .videos-container {
   cursor: pointer;
 }
 
-.video:hover .thumbnail .icon ,
-.video:hover .thumbnail .icon-time ,
+.video:hover .thumbnail .icon,
+.video:hover .thumbnail .icon-time,
 .video:hover .dots {
   opacity: 100%;
 }
@@ -255,7 +251,6 @@ main .videos-container {
   margin-bottom: 12px;
   position: relative;
 }
-
 
 .thumbnail .time,
 .thumbnail .icon,
@@ -345,3 +340,18 @@ main .videos-container {
 .video-creator:hover {
   color: black;
 }
+/*start  mohamed edit  */
+.bowler {
+  right: -17px !important;
+  bottom: 47px !important;
+}
+@media (max-width: 950px) {
+  aside {
+    display: none;
+  }
+  .serbas,
+  .right-section {
+    display: none !important;
+  }
+}
+/*end  mohamed edit  */
